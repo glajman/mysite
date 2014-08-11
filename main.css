@@ -1,0 +1,74 @@
+body {
+	background-color:black;
+	margin-left: 140px;
+	margin-top: 20px;
+}
+
+.logo {
+	clear: both;
+	float: left;
+}
+
+.nav {
+	background-color: red;
+	font-family: helvetica;
+	padding: 10px 10px;
+	margin-left: 200px;
+}
+
+.nav a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: none;
+}
+
+.nav a:visited {
+	color: white;
+}
+
+.nav .content li {
+	display:inline;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+
+.albums {
+	background-color: blue;
+	font-family: helvetica;
+	float: left;
+	width: 200px;
+	height: 500px;
+	clear: both;
+}
+
+.albums ul {
+	list-style-type:none;
+	margin-left: 23px;
+}
+
+.albums a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.albums a:hover {
+	text-decoration: none;
+}
+
+.albums a:visited {
+	color: white;
+}
+
+.picture {
+	position: relative;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.picture figure {
+	position: absolute;
+}
